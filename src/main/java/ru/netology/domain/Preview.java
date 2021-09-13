@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 public class Preview {
     private int picture;  // картинка превью
-    private int heading; // заголовок в превью
+    String heading; // заголовок в превью
     private int idAuthor; // автор в превью
     private int button; // ссылка на статью
     private int favorites; // добавить статью в избранное
@@ -15,11 +15,11 @@ public class Preview {
         this.picture = picture;
     }
 
-    public int getHeading() {
+    public String getHeading() {
         return heading;
     }
 
-    public void setHeading(char heading) {
+    public void setHeading(String heading) {
         this.heading = heading;
     }
 
