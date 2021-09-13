@@ -3,9 +3,9 @@ package ru.netology.domain;
 public class Copyright {
     // источник материала
     private int id;
-    String link;
-    String name;
-    String type;
+    private String link;
+    private String name;
+    private String type;
 
     public int getId() {
         return id;
